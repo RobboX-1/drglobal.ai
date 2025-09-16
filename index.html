@@ -7,18 +7,31 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Arial, sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
       color: #fff;
       text-align: center;
     }
     .container {
-      max-width: 600px;
+      max-width: 700px;
       padding: 20px;
+    }
+    .logo {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 20px;
+      background-color: #fff;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      color: #1f1c2c;
+      font-weight: bold;
     }
     h1 {
       font-size: 2.5rem;
@@ -27,27 +40,46 @@
     p {
       font-size: 1.2rem;
       margin-bottom: 1.5rem;
+      line-height: 1.5;
     }
     .btn {
       display: inline-block;
-      padding: 12px 24px;
+      padding: 12px 28px;
       font-size: 1rem;
-      color: #203a43;
+      color: #1f1c2c;
       background-color: #fff;
       border-radius: 6px;
       text-decoration: none;
-      transition: 0.3s;
+      font-weight: 600;
+      transition: all 0.3s ease;
     }
     .btn:hover {
       background-color: #ddd;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      opacity: 0.8;
     }
   </style>
 </head>
 <body>
   <div class="container">
+    <!-- Logo Platzhalter -->
+    <div class="logo">AI</div>
+
     <h1>DR Global AI</h1>
-    <p>Intelligente Lösungen für die Zukunft. <br> Unsere Plattform ist bald online.</p>
+    <p>
+      Willkommen bei <strong>DR Global AI</strong> –  
+      wir entwickeln intelligente, zukunftsorientierte Lösungen.  
+      Unsere Plattform ist bald verfügbar.
+    </p>
+
     <a href="mailto:info@drglobal.ai" class="btn">Kontakt aufnehmen</a>
+
+    <footer>
+      &copy; 2025 DR Global AI – Alle Rechte vorbehalten
+    </footer>
   </div>
 </body>
 </html>
